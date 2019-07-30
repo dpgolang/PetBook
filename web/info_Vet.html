@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Vet info</title>
+</head>
+<body>
+    <table>
+        <thead><tr><th>First name</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Last name</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>E-mail</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Specialization</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Experience</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Worked in clinics</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Description</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+    </table>
+</body>
+</html>

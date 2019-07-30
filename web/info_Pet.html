@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Info</title>
+</head>
+<body>
+    <table>
+        <thead><tr><th>Pet nickname</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Animal type</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet breed</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet age</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet weight</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet gender</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet description</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+    </table>
+</body>
+</html>
