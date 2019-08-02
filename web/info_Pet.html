@@ -6,13 +6,13 @@
 </head>
 <body>
     <table>
-        <thead><tr><th>Pet nickname</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Animal type</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Pet breed</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Pet age</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Pet weight</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Pet gender</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
-        <thead><tr><th>Pet description</th>{{range . }}<td>{{.Colamn}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet nickname</th>{{range . }}<td>{{.Nickname}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Animal type</th>{{range . }}<td>{{.Type}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet breed</th>{{range . }}<td>{{.Breed}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet age</th>{{range . }}<td>{{.Age}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet weight</th>{{range . }}<td>{{.Weight}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet gender</th>{{range . }}<td>{{.Gender}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
+        <thead><tr><th>Pet description</th>{{range . }}<td>{{.Description}}</td><td><a href="/edit/{{.Id}}">Edit </a></td></tr>{{end}}
     </table>
 </body>
 </html>

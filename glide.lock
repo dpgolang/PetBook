@@ -1,0 +1,25 @@
+hash: 6e47c6875430812c5100b5b93d97109f48f2c3f8e33633192e1a8d121b5bd730
+updated: 2019-08-02T09:01:23.3622176+03:00
+imports:
+- name: github.com/gorilla/handlers
+  version: 8a3748addc242fc560bd6d4ff28b0374c010b1b4
+- name: github.com/gorilla/mux
+  version: 00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15
+- name: github.com/jmoiron/sqlx
+  version: 38398a30ed8516ffda617a04c822de09df8a3ec5
+  subpackages:
+  - reflectx
+- name: github.com/joho/godotenv
+  version: 23d116af351c84513e1946b527c88823e476be13
+- name: github.com/lib/pq
+  version: 3427c32cb71afc948325f299f040e53c1dd78979
+  subpackages:
+  - oid
+  - scram
+- name: github.com/rubenv/sql-migrate
+  version: 87ce952f7079c58e10a2a85835202943ebb9580c
+  subpackages:
+  - sqlparse
+- name: gopkg.in/gorp.v1
+  version: 6a667da9c028871f98598d85413e3fc4c6daa52e
+testImports: []

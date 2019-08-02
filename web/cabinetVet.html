@@ -7,20 +7,21 @@
 <body>
 <form method="POST">
     <label>Doctor licence</label>
-        <input type="file" accept="application/pdf,text/xml"><br><br>
+        <input name="licence" type="file" accept="application/pdf,text/xml"><br><br>
     <label>Specialization</label>
-        <p><input type="checkbox" name="therapist" checked>Therapist</p>
-        <p><input type="checkbox" name="surgeon">Surgeon</p>
-        <p><input type="checkbox" name="dermatologist">Dermatologist</p>
-        <p><input type="checkbox" name="neurologist" >Neurologist</p>
-        <p><input type="checkbox" name="cardiologist">Cardiologist</p>
+
+        <p><input type="checkbox" name="therapist" value="therapist" checked>Therapist</p>
+        <p><input type="checkbox" name="surgeon" value="surgeon">Surgeon</p>
+        <p><input type="checkbox" name="dermatologist" value="dermatologist">Dermatologist</p>
+        <p><input type="checkbox" name="neurologist" value="neurologist">Neurologist</p>
+        <p><input type="checkbox" name="cardiologist" value="cardiologist">Cardiologist</p>
 
     <label>Experience</label><br>
     <input type="number" name="experience" /><br><br>
     <label>Worked in clinics</label><br>
     <input type="text" name="clinics" /><br><br>
     <label>Description</label><br>
-    <input type="text" name="vet-description" /><br><br>
+    <input type="text" name="description" /><br><br>
     <input type="submit" value="Send" />
 </form>
 </body>

@@ -5,24 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="foto">
-        <img src="images/wtf.png" alt="Голубь">
+    <div name="side-bar" style="margin-left: 20px;margin-top: 30px">
+    <div class="photo" style="display: block; width: 200px; height: 240px; border:black solid 2px">
+        <img name="photo" src="images/wtf.png" alt="Голубь">
     </div><br><br>
     <div class="menu">
         <form method="LINK" action="forum.html">
-            <input type="submit" value="Forum"/><br></p>
+            <input type="submit" value="Forum"/><br>
         </form>
         <form method="LINK" action="chat.html">
-            <input type="submit" value="Chat"/><br></p>
+            <input type="submit" value="Chat"/><br>
         </form>
         <form method="LINK" action="community.html">
-            <input type="submit" value="Community"/><br></p>
+            <input type="submit" value="Community"/><br>
         </form>
         <form method="LINK" action="settings.html">
-            <input type="submit" value="Settings"/><br></p>
+            <input type="submit" value="Settings"/><br>
         </form>
     </div>
-    <div class="info">
+    </div>
+    <div class="info" name="info" style="position: fixed; margin-left: 50px">
         In this form we need to use template engine !!!
         Values will get from DB !!!
         Pet-info.html or Vet-info.html
@@ -30,7 +32,7 @@
     <div class="new-post">
         <form method="POST">
             <label>Add post</label><br>
-            <input type="text" name="email" />
+            <input type="text" name="add-post" />
             <input type="submit" value="Publish" />
         </form>
     </div>
