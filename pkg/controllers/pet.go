@@ -9,7 +9,7 @@ import (
 	"regexp"
 )
 
-// TODO: check input values
+
 func (c *Controller) PetPostHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		err := r.ParseForm()
@@ -38,7 +38,7 @@ func (c *Controller) PetPostHandler() http.HandlerFunc {
 		if err != nil {
 			logger.Error(err, "Error occurred while trying to register pet.\n")
 		}
-		http.Redirect(w, r, "/mypage", http.StatusSeeOther)
+		http.Redirect(w, r, "/", http.StatusSeeOther)
 	}
 }
 
